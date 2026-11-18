@@ -19,7 +19,6 @@ modules:
 
   - type: dnf
     group-install:
-    install:
       packages:
         - cosmic-desktop
     # remove:
