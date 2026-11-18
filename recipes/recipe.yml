@@ -19,6 +19,7 @@ modules:
 
   - type: dnf
     group-install:
+      install-weak-deps: false
       packages:
         - cosmic-desktop
     # remove:
